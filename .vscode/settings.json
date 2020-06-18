@@ -1,0 +1,23 @@
+{
+  "editor.wordWrap": "off",
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "search.exclude": {
+    "**/.serverless": true,
+    "**/.testing_output": true,
+    "**/.coverage": true,
+    "**/node_modules": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "eslint.workingDirectories": [
+    "."
+  ],
+  "editor.wordWrapColumn": 120,
+  "vetur.format.defaultFormatter.js": "none",
+}
